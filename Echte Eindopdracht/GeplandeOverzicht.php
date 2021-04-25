@@ -40,6 +40,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     </div>
     <?php } ?>
     </div>
-
+    <?php include 'includes/footer.php'; ?>
   </body>
 </html>
