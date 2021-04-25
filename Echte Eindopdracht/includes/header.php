@@ -7,13 +7,28 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <style media="screen">
-    .game, img{
+    .game, .image{
       width: 250px;
       height: 200px;
       display: inline-block;
       margin-top: 10px;
       margin-bottom: 50px;
-      border: 1px solid black;
+    }.afbeelding{
+      width: 250px;
+      height: 250px;
+      float: left;
+      margin-right: 200px;
+    }p{
+      color: black;
     }
+    .video{
+      float: right;
+    }.input{
+
+    }.input p{
+      display: inline-block;
+      color: red;
+    }
+
   </style>
 </head>
