@@ -33,6 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
       <h1><?php echo $rows2[0]['name']; ?></h1>
       <p>Tijd:<?php echo $key['tijd']; ?></p>
       <p>Duur:<?php echo $totaal = $rows2[0]['play_minutes'] + $rows2[0]['explain_minutes']; ?> Minutes</p>
+      <p>Datum:<?php echo $key['datum']; ?></p>
       <p>Uitlegger: <?php echo $key['uitlegger']; ?></p>
       <a href="index.php?confirm=false&2id=<?php echo $key['GameId']; ?>"><i class="fas fa-minus-circle"></i>Planning verwijderen</a>
       <a href="detail.php?id=<?php echo $key['GameId']; ?>&update=true">| Bewerken</a>
