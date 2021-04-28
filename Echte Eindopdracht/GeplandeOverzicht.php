@@ -1,5 +1,4 @@
 <?php
-require 'includes/overzicht.php';
 require 'includes/functions.php';
 $rows = geplandeSpellen();
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {

@@ -1,5 +1,5 @@
 <?php
-require 'includes/overzicht.php';
+
 require 'includes/functions.php';
 
   $rows = selectAll();
